@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>O Caminho da Decisão</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="Img/cenario-passo0.png" alt="">
+            <p>Um personagem (João) está em casa, entediado e sem saber o que fazer no final de semana.
+            </p>
+            <button class="btn-proximo" data-proximo="1">👉Let's Go! 👈</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="Img/cenario-passo1.png" alt="">
+            <p> João recebe um convite de um amigo para uma festa.</p>
+            <button class="btn-proximo" data-proximo="3">Aceitar o convite e ir à festa.</button>
+            <button class="btn-proximo" data-proximo="4">Recusar o convite e ficar em casa.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Pernambuco, você visita a histórica cidade de Olinda. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="Img/cenario-passo2.png" alt="">
+            <p>Se João aceita o convite, ele encontra dois caminhos para chegar à festa</p>
+            <button class="btn-proximo" data-proximo="7"> Seguir o caminho mais curto, mas escuro.</button>
+            <button class="btn-proximo" data-proximo="5">Seguir o caminho mais longo, mas bem iluminado.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="Img/cenario-passo5.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Se João ficar em casa, ele assiste a um filme e acaba tendo uma noite tranquila.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Se João escolhe o caminho mais longo, ele chega em segurança, mas demora mais.</p>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="Img/cenario-passo3.png" alt="">
+            <p>Se João escolhe o caminho mais curto, ele acaba chegando mais rápido, mas encontra um obstáculo (um cachorro bravo).</p>
+            <button class="btn-proximo" data-proximo="9">Enfrentar o cachorro</button>
+            <button class="btn-proximo" data-proximo="10">Voltar e mudar de caminho</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="Img/cenario-passo4.png" alt="">
+            <p>João decide tentar passar pelo cachorro, mas o animal começa a rosnar. Ele se afasta devagar e, ao tentar seguir, o cachorro avança, forçando João a correr de volta e tomar um desvio. Ele chega à festa atrasado e um pouco assustado, mas são e salvo. Fim...</p>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="Img/cenario-passo4.png" alt="">
+            <p>João percebe que não vale a pena arriscar e decide voltar. Ele então pega o caminho mais longo e iluminado. Apesar de ter perdido algum tempo, ele chega à festa em segurança, embora mais tarde do que o esperado. Fim...</p>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
+                este lugar</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
+                que levam à cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
